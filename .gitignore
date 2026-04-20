@@ -1,0 +1,35 @@
+# MLAOS Absolute Shield - Tier 1 Sovereign Command
+# OS/User Debris
+.DS_Store
+.Trash/
+Applications/
+Archives/
+Desktop/
+Documents/
+Downloads/
+Library/
+Movies/
+Music/
+Pictures/
+Public/
+OneDrive/
+
+# Development & IDEs
+.idea/
+.vscode/
+.gradle/
+.venv/
+__pycache__/
+*.pyc
+node_modules/
+.npm/
+.yarn/
+.gradle/
+
+# Specific Logic Noise
+mbox
+align_db.py
+*.pdf
+*.png
+*.jpeg
+*.jpg
