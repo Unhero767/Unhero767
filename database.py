@@ -10,7 +10,7 @@ class Sovereign(Base):
     __tablename__ = 'sovereigns'
     id = Column(Integer, primary_key=True)
     handle = Column(String, unique=True)
-    clearance_tier = Column(Integer, default=1) 
+    clearance_tier = Column(Integer, default=1)
     last_manifestation = Column(DateTime, default=datetime.datetime.utcnow)
     empathy_baseline = Column(Integer, default=100)
 

@@ -22,8 +22,8 @@ async def start_transaction(db: Session = Depends(get_db)):
     hero = db.query(Sovereign).filter(Sovereign.handle == "HeroUnhero").first()
     if not hero:
         hero = Sovereign(
-            handle="HeroUnhero", 
-            clearance_tier=1, 
+            handle="HeroUnhero",
+            clearance_tier=1,
             empathy_baseline=100,
             last_manifestation=datetime.datetime.utcnow()
         )
@@ -39,8 +39,8 @@ async def start_transaction(db: Session = Depends(get_db)):
         db.commit()
 
     return {
-        "status": "success", 
-        "sovereign": hero.handle, 
+        "status": "success",
+        "sovereign": hero.handle,
         "tier": hero.clearance_tier,
         "state": "◦A_INIT"
     }

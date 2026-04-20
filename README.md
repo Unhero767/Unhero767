@@ -143,5 +143,5 @@ git push -u origin main
 
 ---
 
-**Kenneth Dallmier** | Sole Engineer & Owner, MLAOS Engine Project  
+**Kenneth Dallmier** | Sole Engineer & Owner, MLAOS Engine Project
 📧 [kennydallmier@gmail.com](mailto:kennydallmier@gmail.com) | 🔗 [https://github.com/Herounhero](https://github.com/Herounhero)

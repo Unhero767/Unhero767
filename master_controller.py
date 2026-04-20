@@ -17,7 +17,7 @@ def execute_pulse(century):
     # Quadratic Inertia Formula: I = k * (t^2 / (1 + t))
     inertia = GOLDEN_PLUMB * (math.pow(century, 2) / (1 + century))
     inertia = round(inertia, 4)
-    
+
     conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
     try:
